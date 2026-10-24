@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+body {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+/* Badge Styles */
+.badge-priority {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.15rem 0.55rem;
+  border-radius: 9999px;
+}
+.badge-priority-high { background-color: #fff1f2; color: #e11d48; border: 1px solid #ffe4e6; }
+.badge-priority-medium { background-color: #fffbeb; color: #d97706; border: 1px solid #fef3c7; }
+.badge-priority-low { background-color: #ecfdf5; color: #059669; border: 1px solid #d1fae5; }
+
+/* Status Badges */
+.badge-status {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.68rem;
+  font-weight: 700;
+  padding: 0.15rem 0.55rem;
+  border-radius: 0.5rem;
+}
+.badge-status-todo { background-color: #f1f5f9; color: #475569; }
+.badge-status-in_progress { background-color: #eff6ff; color: #2563eb; }
+.badge-status-completed { background-color: #ecfdf5; color: #059669; }
+
+/* Due Urgency Badges */
+.due-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 0.15rem 0.5rem;
+  border-radius: 0.4rem;
+}
+.due-overdue { background-color: #fef2f2; color: #dc2626; border: 1px solid #fee2e2; }
+.due-soon { background-color: #fffbeb; color: #b45309; border: 1px solid #fef3c7; }
+.due-future { background-color: #f8fafc; color: #64748b; border: 1px solid #e2e8f0; }
